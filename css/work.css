@@ -1,0 +1,155 @@
+.project-wrapper{
+  border-radius: 20px;
+  padding: 25px 45px;
+  box-shadow: 0 70px 140px 0 rgba(130, 136, 171, .2);
+  height: 1050px;
+}
+
+.text-red {
+  color: #EE8C80;
+}
+
+.center-all {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.gif {
+  border-radius: 20px;
+  border: 25px solid #3c3c3c;
+
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+h3 {
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+li.custom-li, span{
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.tags {
+  background: red;
+  padding: 5px 10px;
+  border-radius: 30px;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.bg-orange {
+  background: #ffc07c;
+}
+
+.bg-green {
+  background: #9BD0A5;
+}
+
+.bg-red {
+  background: #ea6871;
+}
+
+.bg-pink {
+  background: #EE8C80;
+}
+
+.bg-purple {
+  background: #a88dea;
+}
+
+.bg-special {
+  background: #d2dae2;
+  color: #222 !important;
+}
+
+.bg-blue {
+  background: #81BCDA;
+}
+
+.foot-social  a{
+  font-size: 4rem;
+  text-align: center;
+  margin: 0 auto !important;
+  margin-left: 15px !important;
+}
+
+.d-block {
+  display: block;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 320px) {
+  .work-border {
+    border: 5px solid #AAAAAA;
+    border-radius: 15px;
+
+  }
+
+  .custom-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+}
+
+@media (min-width: 480px) {
+  .work-border {
+      border: 10px solid #AAAAAA;
+      border-radius: 20px;
+  }
+
+.custom-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width:641px) {
+  .work-border {
+    border: 15px solid #AAAAAA;
+    border-radius: 15px;
+  }
+}
+
+@media (min-width:961px) {
+  .work-border {
+    border: 18px solid #AAAAAA;
+    border-radius: 18px;
+  }
+}
+
+@media (min-width:1281px) {
+ .work-border {
+   border: 23px solid #AAAAAA;
+   border-radius: 30px;
+ }
+}
+
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
