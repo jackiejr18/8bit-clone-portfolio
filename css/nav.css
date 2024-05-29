@@ -98,7 +98,7 @@
 .nav-link{
 	color: #212121 !important;
 	font-weight: 600;
-    transition: all 200ms linear;
+  transition: all 200ms linear;
 }
 .nav-item:hover .nav-link{
 	color: #DB8E8D !important;
@@ -431,7 +431,6 @@ body.dark .navbar-light .navbar-toggler-icon:before{
 body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
-
 
 
 /* #Media
