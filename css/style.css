@@ -1953,7 +1953,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 
 a.navbar-brand {
   font-family: 'Pokemon Classic';
-  font-size: 24px;
+  font-size: 18px;
   letter-spacing: -.3px;
   font-weight: 600 !important;
   margin-left: 5px !important;
@@ -2284,8 +2284,9 @@ select[multiple].navbar-form .btn {
 }
 .navbar-default .navbar-nav > li > a {
   color: #222;
-  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Pokemon Classic';
   font-weight: 700;
+  font-size: 14px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
