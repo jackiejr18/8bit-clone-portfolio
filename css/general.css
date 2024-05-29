@@ -12,10 +12,6 @@
   font-style: normal;
 }
 
-* {
-  font-family: 'Pokemon Classic';
-}
-
 html{
 	overflow-x: hidden;
 	scroll-behavior: smooth;
@@ -1264,10 +1260,6 @@ p.copyright {
 	.mockup-left {
 		float: none;
 		margin: 0 auto 20px;
-	}
-
-	.mockup-right {
-
 	}
 
 	.joiner {
