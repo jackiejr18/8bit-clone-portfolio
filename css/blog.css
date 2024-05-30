@@ -99,9 +99,17 @@ div.inner {
   margin-bottom: 0;
   height: 400px;
   text-align: left;
-  font-family: 'Inconsolata',monospace;
+  font-family: 'Pokemon Classic';
   padding: 40px;
   color: white;
+}
+
+div.inner p {
+  font-size: 14px;
+}
+
+div .inner .link {
+  font-size: 12px;
 }
 
 .data-title {
