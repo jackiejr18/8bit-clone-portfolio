@@ -1292,3 +1292,9 @@ div.footer{
 li.social a{
 	margin-right: 3%;
 }
+
+/* Nes components*/
+
+.nes-btn.is-primary {
+	font-family: 'Pokemon Classic';
+}
