@@ -24,8 +24,10 @@
 }
 
 .custom-subtitle-font{
-    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Pokemon Classic';
     font-weight: 700;
+    font-size: 18px;
+    margin-top: 5px;
 }
 .underline{
     border-top: 2px solid #81BCDA;
