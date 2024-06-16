@@ -250,3 +250,34 @@ button:focus {
   .nes-btn.pf:active.nes-btn:active:not(.is-disabled)::after {
     box-shadow: inset 4px 4px #b3b071;
   }
+
+  .nes-btn.md {
+    background-color: #9BD0A5;
+  }
+
+  .nes-btn.md::after {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    content: '';
+    box-shadow: inset -4px -4px #6b9371;
+  }
+
+  .nes-btn.md:hover {
+    text-decoration: none;
+    background-color:  #83b88b;
+  }
+
+  .nes-btn.md:hover::after {
+    box-shadow: inset -6px -6px #6b9371;
+  }
+
+  .nes-btn.md:focus {
+    box-shadow: 0 0 0 6px rgba(107, 147, 113, 0.3);
+  }
+
+  .nes-btn.md:active.nes-btn:active:not(.is-disabled)::after {
+    box-shadow: inset 4px 4px #6b9371;
+  }
