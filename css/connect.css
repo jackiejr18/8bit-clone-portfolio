@@ -281,3 +281,68 @@ button:focus {
   .nes-btn.md:active.nes-btn:active:not(.is-disabled)::after {
     box-shadow: inset 4px 4px #6b9371;
   }
+
+  .nes-btn.tt {
+    background-color: #81BCDA;
+  }
+
+  .nes-btn.tt::after {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    content: '';
+    box-shadow: inset -4px -4px #5d97b3;
+  }
+
+  .nes-btn.tt:hover {
+    text-decoration: none;
+    background-color:  #6ba2c3;
+  }
+
+  .nes-btn.tt:hover::after {
+    box-shadow: inset -6px -6px #5d97b3;
+  }
+
+  .nes-btn.tt:focus {
+    box-shadow: 0 0 0 6px rgba(93, 151, 179, 0.3);
+  }
+
+  .nes-btn.tt:active.nes-btn:active:not(.is-disabled)::after {
+    box-shadow: inset 4px 4px #5d97b3;
+  }
+
+  .nes-btn.li {
+    background-color: #a88dea;
+  }
+
+  .nes-btn.li::after {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    content: '';
+    box-shadow: inset -4px -4px #6e56b3;
+  }
+
+  .nes-btn.li:hover {
+    text-decoration: none;
+    background-color:  #8a70d6;
+  }
+
+  .nes-btn.li:hover::after {
+    box-shadow: inset -6px -6px #6e56b3;
+  }
+
+  .nes-btn.li:focus {
+    box-shadow: 0 0 0 6px rgba(110, 86, 179, 0.3);
+  }
+
+  .nes-btn.li:active.nes-btn:active:not(.is-disabled)::after {
+    box-shadow: inset 4px 4px #6e56b3;
+  }
+
+  
+
