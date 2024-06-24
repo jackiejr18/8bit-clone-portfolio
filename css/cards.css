@@ -160,6 +160,7 @@ button:focus {
     color: #212529;
     background-color: #fff;
     width: 200px;
+    font-family: 'Pokemon Classic';
   }
 
   @media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
@@ -201,6 +202,11 @@ button:focus {
   
   .nes-btn:active:not(.is-disabled)::after {
     box-shadow: inset 4px 4px #adafbc;
+  }
+
+  .nes-btn.rainbow {
+    animation: bg-rainbow 10s infinite;
+    color: #fff;
   }
 
   
