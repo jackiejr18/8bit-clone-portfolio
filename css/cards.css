@@ -205,8 +205,12 @@ button:focus {
   }
 
   .nes-btn.rainbow {
-    animation: bg-rainbow 10s infinite;
+    animation: bt-rainbow 10s infinite;
     color: #fff;
+  }
+
+  .nes-btn.rainbow::after {
+    animation: afterAnimation 10s infinite;
   }
 
   
@@ -461,7 +465,7 @@ h1#social{
 
 
 .btn-rainbow {
-    animation: bg-rainbow 10s infinite;
+    animation: bt-rainbow 10s infinite;
 }
 .bg-rainbow {
     animation: bg-rainbow 10s infinite;
@@ -478,4 +482,51 @@ h1#social{
     100% {background: rgb(234, 104, 113);}
   }
 
+
+  @keyframes bt-rainbow {
+    0% {
+        background: rgb(234, 104, 113);
+    }
+    
+    
+    15%{background:rgba(255, 192, 124, 1);}
+    30%{background:rgba(254, 222, 154, 1);}
+    45%{background:rgba(243,250,189,1);}
+    60% {background: rgba(155, 208, 165, 1);}
+    75% {background: rgba(129, 188, 218, 1);}
+    90% {background: rgba(168, 141, 234, 1);}
+    100% {background: rgb(234, 104, 113);}
+  }
+
+  @keyframes afterAnimation {
+    0% {
+        box-shadow: inset -4px -4px #a84b54;
+    }
+    
+    
+    15% {
+        box-shadow: inset -4px -4px #b97f51;
+    }
+
+    30% {
+        box-shadow: inset -4px -4px #b3b071 ;
+    }
+
+
+    45%{
+        box-shadow: inset -4px -4px #b3b071 ;
+    }
+    60% {
+        box-shadow: inset -4px -4px #6b9371;
+    }
+    75% {
+        box-shadow: inset -4px -4px #5d97b3;
+    }
+    90% {
+        box-shadow: inset -4px -4px #6e56b3;
+    }
+    100% {
+        box-shadow: inset -4px -4px #a84b54;
+    }
+  }
   
