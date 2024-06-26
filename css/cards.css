@@ -146,7 +146,7 @@ button:focus {
     border-image-width: 2;
     border-image-repeat: stretch;
     border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="rgb(33,37,41)" /></svg>');
-    border-image-outset: 2;
+    border-image-outset:2;
     position: relative;
     display: inline-block;
     padding: 6px 8px;
@@ -212,13 +212,46 @@ button:focus {
   .nes-btn.rainbow {
     animation: bt-rainbow 10s infinite;
     color: #fff;
-    margin-top: 7%;
-    width: 180px;
+    margin-top: 10%;
+    margin-left: 45%;
   }
 
   .nes-btn.rainbow::after {
     animation: afterAnimation 10s infinite;
   }
+
+.nes-btn.red {
+    background-color: #ea6871;
+    color: #fff;
+
+}
+
+.nes-btn.red::after {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    content: '';
+    box-shadow: inset -4px -4px #a84b54;
+}
+
+.nes-btn.red:hover {
+    text-decoration: none;
+    background-color:  #d95a63;
+}
+
+.nes-btn.red:hover::after {
+    box-shadow: inset -6px -6px #a84b54;
+  }
+
+  .nes-btn.red:focus {
+    box-shadow: 0 0 0 6px rgba(168, 75, 84, 0.3);
+}
+
+.nes-btn.red:active.nes-btn:active:not(.is-disabled)::after {
+    box-shadow: inset 4px 4px #a84b54;
+}
 
   
 
