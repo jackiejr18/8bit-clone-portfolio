@@ -213,6 +213,7 @@ button:focus {
     animation: afterAnimation 10s infinite;
   }
 
+
   
 
 .btn.btn-talk, .btn.btn-work {
@@ -509,7 +510,7 @@ h1#social{
     }
 
     30% {
-        box-shadow: inset -4px -4px #b3b071 ;
+        box-shadow: inset -4px -4px #b7976c ;
     }
 
 
@@ -529,4 +530,6 @@ h1#social{
         box-shadow: inset -4px -4px #a84b54;
     }
   }
+  
+
   
