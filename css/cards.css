@@ -212,7 +212,8 @@ button:focus {
   .nes-btn.rainbow {
     animation: bt-rainbow 10s infinite;
     color: #fff;
-    margin-top: 10%;
+    margin-top: 15%;
+    margin-bottom: 15%;
     margin-left: 45%;
   }
 
@@ -223,7 +224,8 @@ button:focus {
 .nes-btn.red {
     background-color: #ea6871;
     color: #fff;
-    margin-top: 8%;
+    margin-top: 15%;
+    margin-bottom: 15%;
     margin-right: 50%;
 
 }
@@ -254,6 +256,41 @@ button:focus {
 .nes-btn.red:active.nes-btn:active:not(.is-disabled)::after {
     box-shadow: inset 4px 4px #a84b54;
 }
+
+.nes-btn.orange {
+    background-color: #ffc07c;
+    color: #fff;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 45%;
+  }
+
+  .nes-btn.orange::after {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    content: '';
+    box-shadow: inset -4px -4px #b97f51;
+  }
+
+  .nes-btn.orange:hover {
+    text-decoration: none;
+    background-color:  #e6a368;
+  }
+
+  .nes-btn.orange:hover::after {
+    box-shadow: inset -6px -6px #b97f51;
+  }
+
+  .nes-btn.orange:focus {
+    box-shadow: 0 0 0 6px rgba(185, 127, 81, 0.3);
+  }
+
+  .nes-btn.orange:active.nes-btn:active:not(.is-disabled)::after {
+    box-shadow: inset 4px 4px #b97f51;
+  }
 
   
 
