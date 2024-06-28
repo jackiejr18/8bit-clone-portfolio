@@ -327,6 +327,76 @@ button:focus {
     box-shadow: inset 4px 4px rgb(204, 170, 115);
   }
 
+  .nes-btn.green {
+    background-color: #9BD0A5;
+    color: #fff;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 45%;
+  }
+
+  .nes-btn.green::after {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    content: '';
+    box-shadow: inset -4px -4px #6b9371;
+  }
+
+  .nes-btn.green:hover {
+    text-decoration: none;
+    background-color:  #83b88b;
+  }
+
+  .nes-btn.green:hover::after {
+    box-shadow: inset -6px -6px #6b9371;
+  }
+
+  .nes-btn.green:focus {
+    box-shadow: 0 0 0 6px rgba(107, 147, 113, 0.3);
+  }
+
+  .nes-btn.green:active.nes-btn:active:not(.is-disabled)::after {
+    box-shadow: inset 4px 4px #6b9371;
+  }
+
+  .nes-btn.blue {
+    background-color: #81BCDA;
+    color: #fff;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-right: 50%;
+  }
+
+  .nes-btn.blue::after {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    content: '';
+    box-shadow: inset -4px -4px #5d97b3;
+  }
+
+  .nes-btn.blue:hover {
+    text-decoration: none;
+    background-color:  #6ba2c3;
+  }
+
+  .nes-btn.blue:hover::after {
+    box-shadow: inset -6px -6px #5d97b3;
+  }
+
+  .nes-btn.blue:focus {
+    box-shadow: 0 0 0 6px rgba(93, 151, 179, 0.3);
+  }
+
+  .nes-btn.blue:active.nes-btn:active:not(.is-disabled)::after {
+    box-shadow: inset 4px 4px #5d97b3;
+  }
+
   
 
 .btn.btn-talk, .btn.btn-work {
@@ -524,6 +594,13 @@ button:focus {
     .btn.btn-red {
         margin-top: 8%;
         margin-bottom: 8%;
+    }
+
+    .nes-btn.nes-btn {
+        margin-top: 8%;
+        margin-bottom: 8%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
