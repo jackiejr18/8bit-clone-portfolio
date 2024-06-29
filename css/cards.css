@@ -397,6 +397,41 @@ button:focus {
     box-shadow: inset 4px 4px #5d97b3;
   }
 
+  .nes-btn.purple {
+    background-color: #a88dea;
+    color: #fff;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 45%;
+  }
+
+  .nes-btn.purple::after {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    content: '';
+    box-shadow: inset -4px -4px #6e56b3;
+  }
+
+  .nes-btn.purple:hover {
+    text-decoration: none;
+    background-color:  #8a70d6;
+  }
+
+  .nes-btn.purple:hover::after {
+    box-shadow: inset -6px -6px #6e56b3;
+  }
+
+  .nes-btn.purple:focus {
+    box-shadow: 0 0 0 6px rgba(110, 86, 179, 0.3);
+  }
+
+  .nes-btn.purple:active.nes-btn:active:not(.is-disabled)::after {
+    box-shadow: inset 4px 4px #6e56b3;
+  }
+
   
 
 .btn.btn-talk, .btn.btn-work {
