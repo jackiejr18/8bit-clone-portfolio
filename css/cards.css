@@ -432,6 +432,40 @@ button:focus {
     box-shadow: inset 4px 4px #6e56b3;
   }
 
+  .nes-btn.grey {
+    background-color: #d2dae2;
+    color: #222;
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+
+  .nes-btn.grey::after {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    content: '';
+    box-shadow: inset -4px -4px #9199a3;
+  }
+
+  .nes-btn.grey:hover {
+    text-decoration: none;
+    background-color:  #b1bacc;
+  }
+
+  .nes-btn.grey:hover::after {
+    box-shadow: inset -6px -6px #9199a3;
+  }
+
+  .nes-btn.grey:focus {
+    box-shadow: 0 0 0 6px rgba(145, 153, 163, 0.3);
+  }
+
+  .nes-btn.grey:active.nes-btn:active:not(.is-disabled)::after {
+    box-shadow: inset 4px 4px #9199a3;
+  }
+
   
 
 .btn.btn-talk, .btn.btn-work {
